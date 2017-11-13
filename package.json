@@ -1,5 +1,5 @@
 {
-  "name": "react-backcall",
+  "name": "react-backtrace",
   "version": "0.0.1",
   "description": "Leaves breadcumps behind",
   "main": "dist/index.js",
