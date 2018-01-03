@@ -1,6 +1,6 @@
 One said:
 
-``Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.``
+### Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
 
 The question - how he will find you?
 
@@ -8,7 +8,7 @@ The question - how he will find you?
 
 You can use react-traceback for analytics, understanding position in the tree, all the things... 
 
-#Usage
+# Usage
 
 ```javascript
 import Breadcrumb from 'react-backtrace';
@@ -56,3 +56,14 @@ connectBacktrace(callback)(Application)
  3. (HOC)withBreadcrumb(Component) - provision a Component with backtrace function
  4. (HOC)addSpices(function)(Component) - allows you to modify payload by the way
  5. (HOC)connectBacktrace(function)(Component) - connects to the top-level API
+ 
+
+## Composition
+ `connectBacktrace` is the start, and is the end for a breadcrumb.
+  
+ ```js
+  const NextComponent = leaveBreadcrumb(LastComponent);
+  const Middleware = connectBacktrace(middlewareCallback)(NextComponent);
+  
+```
+ 

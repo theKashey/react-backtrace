@@ -1,9 +1,9 @@
 {
   "name": "react-backtrace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Leaves breadcumps behind",
   "main": "dist/index.js",
-  "typing": "backtrace.d.ts",
+  "types": "backtrace.d.ts",
   "scripts": {
     "build": "babel src -d dist",
     "test": "npm run test:pick -- '_tests/**/*spec.js'",
