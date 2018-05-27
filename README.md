@@ -4,7 +4,7 @@ One said:
 
 The question - how he will find you?
 
-[![NPM](https://nodei.co/npm/react-backtrace.png?downloads=true&stars=true)](https://nodei.co/npm/backtrace/)
+[![NPM](https://nodei.co/npm/react-backtrace.png?downloads=true&stars=true)](https://nodei.co/npm/backtrace/) [![Greenkeeper badge](https://badges.greenkeeper.io/theKashey/react-backtrace.svg)](https://greenkeeper.io/)
 
 You can use react-traceback for analytics, understanding position in the tree, all the things... 
 
